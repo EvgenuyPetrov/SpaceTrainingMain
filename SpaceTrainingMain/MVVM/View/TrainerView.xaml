@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="SpaceTrainingMain.MVVM.View.TrainerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpaceTrainingMain.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="817" d:DesignWidth="1520">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Border Width="374"
+                    Height="438"
+                    Margin="300,-400,0,0">
+                <Image Source="\Image\Card\Trainer\Card_Trainer_Тест.png" />
+
+
+            </Border>
+
+            <Border Width="374"
+                    Height="438"
+                    Margin="150 ,-400,0,0">
+                <Image Source="\Image\Card\Trainer\Card_Trainer_Планета-спутник.png" />
+
+
+            </Border>
+
+            <Border Width="374"
+                    Height="438"
+                    Margin="-1425,400,0,0">
+                <Image Source="\Image\Card\Trainer\Card_Trainer_Созвездия.png" />
+
+
+            </Border>
+
+            <Border Width="374"
+                    Height="438"
+                    Margin="-375,400,0,0">
+                <Image Source="\Image\Card\Trainer\Card_Trainer_Вопрос-ответ.png" />
+
+
+            </Border>
+
+
+        </StackPanel>
+    </StackPanel>
+</UserControl>
+

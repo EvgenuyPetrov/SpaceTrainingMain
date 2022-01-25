@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bg_HomePage.png" />
+    <None Remove="bg_RegistrationAuthorization.png" />
+    <None Remove="icon_Password_Autarization.png" />
+    <None Remove="icon_User_Autorization.png" />
+    <None Remove="logo_Planet_Autorization.png" />
+    <None Remove="Logo_Text.png" />
+    <None Remove="MVVM\View\logo_FlyingSaucer.png" />
+    <None Remove="MVVM\View\logo_HandPlanet.png" />
+    <None Remove="MVVM\View\logo_Telescope.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bg_HomePage.png" />
+    <Resource Include="bg_RegistrationAuthorization.png" />
+    <Resource Include="icon_Password_Autarization.png" />
+    <Resource Include="icon_User_Autorization.png" />
+    <Resource Include="logo_Planet_Autorization.png" />
+    <Resource Include="Logo_Text.png" />
+    <Resource Include="MVVM\View\logo_FlyingSaucer.png" />
+    <Resource Include="MVVM\View\logo_HandPlanet.png" />
+    <Resource Include="MVVM\View\logo_Telescope.png" />
+  </ItemGroup>
+
+</Project>

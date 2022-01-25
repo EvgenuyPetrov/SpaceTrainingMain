@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="SpaceTrainingMain.MVVM.View.Theory.FundamentalsAstronomyView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpaceTrainingMain.MVVM.View.Theory"
+             mc:Ignorable="d" 
+             d:DesignHeight="817" d:DesignWidth="1520">
+    <Grid>
+        <Image Margin="125,95,125,95" Source="/Image/OtherPanel/Information_images(beta).png" Stretch="Fill"/>
+
+    </Grid>
+</UserControl>

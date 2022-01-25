@@ -1,0 +1,223 @@
+﻿<UserControl x:Class="SpaceTrainingMain.MVVM.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SpaceTrainingMain.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="817" d:DesignWidth="1520">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Border Width="375"
+                    Height="615"
+                    Margin="128,75,0,0"
+                    Background="#59000000">
+
+                <Border.Clip>
+                    <RectangleGeometry RadiusX="25"
+                                       RadiusY="25"
+                                       Rect="0,0,373,615"/>
+                </Border.Clip>
+
+                <Grid>
+                    <StackPanel>
+                        <TextBlock
+                                   Foreground="White" 
+                                   Width="329" Height="146"
+                                   FontWeight="Bold" 
+                                   TextAlignment="Center"
+                                   FontSize="36"
+                                   Margin="0,34,0,0" FontFamily="Cera Round Pro"
+                                   ><Run Text="Тем, кто "/><LineBreak/><Run 
+                                   Text="интересуется "/><LineBreak/><Run
+                                   Text="космосом"/></TextBlock>
+                        <TextBlock
+                            Foreground="White" 
+                            Width="329" Height="200"
+                            Margin="0,10,0,0"
+                            FontWeight="Normal"
+                            TextAlignment="Center" 
+                            FontSize="22"
+                            FontFamily="Cera Round Pro Medium" 
+                            ><Run Text="Узнайте увлекательные "/><LineBreak/><Run 
+                            Text="факты о космических"/><LineBreak/><Run 
+                            Text=" явлениях, которые "/><LineBreak/><Run 
+                            Text="происходят в "/><LineBreak/><Run
+                            Text="наше время."/></TextBlock>
+                        <TextBlock
+                            Foreground="#BCFFFFFF" 
+                            Margin="0,165,0,0"
+                            Width="170" Height="20"
+                            FontWeight="Normal"
+                            TextAlignment="Center"
+                            FontSize="16"
+                            FontStyle="Normal"
+                                   ><Run Language="ru-ru" Text="Подробнее"/></TextBlock>
+                    </StackPanel>
+
+                    <Image
+                           Source="/MVVM/View/logo_FlyingSaucer.png"
+                           Margin="138,376,138,72"/>
+
+                </Grid>
+
+
+            </Border>
+
+            <Border Width="375"
+                    Height="615"
+                    Margin="95,75,0,0"
+                    Background="#59000000">
+
+                <Border.Clip>
+                    <RectangleGeometry RadiusX="25"
+                                       RadiusY="25"
+                                       Rect="0,0,375,615"/>
+                </Border.Clip>
+
+
+                <Grid>
+                    <StackPanel>
+                        <TextBlock
+                                   Foreground="White" 
+                                   Width="329" Height="146"
+                                   FontWeight="Bold" 
+                                   TextAlignment="Center"
+                                   FontSize="36"
+                                   Margin="0,34,0,0" FontFamily="Cera Round Pro"
+                                   ><Run Text="Тем, кто ищет "/><LineBreak/><Run 
+                                   Text="новые знания"/></TextBlock>
+                        <TextBlock
+                             Foreground="White" 
+                            Width="329" Height="200"
+                            Margin="0,10,0,0"
+                            FontWeight="Normal"
+                            TextAlignment="Center" 
+                            FontSize="22"
+                            FontFamily="Cera Round Pro Medium" 
+                            ><Run Text="Откроете неизведанные "/><LineBreak/><Run 
+                            Text="тайны космоса."/></TextBlock>
+                        <TextBlock
+                            Foreground="#BCFFFFFF" 
+                            Margin="0,350,0,0"
+                            Width="170" Height="20"
+                            FontWeight="Normal"
+                            TextAlignment="Center"
+                            FontSize="16"
+                            FontStyle="Normal" 
+                            ><Run Language="ru-ru" 
+                            Text="Подробнее"/></TextBlock>
+                        <TextBlock
+                            Foreground="#BCFFFFFF" 
+                            Margin="0,150,0,0"
+                            Width="170" Height="20"
+                            FontWeight="Normal"
+                            TextAlignment="Center"
+                            FontSize="16"
+                            FontStyle="Normal" 
+                            ><Run Language="ru-ru"
+                            Text="Подробнее"/></TextBlock>
+                        <TextBlock
+                            Foreground="#BCFFFFFF" 
+                            Margin="0,-730,0,0"
+                            Width="170" Height="20"
+                            FontWeight="Normal"
+                            TextAlignment="Center"
+                            FontSize="16"
+                            FontStyle="Normal"
+                            FontFamily="Cera Round Pro" 
+                            ><Run Language="ru-ru"
+                            Text="Подробнее"/></TextBlock>
+
+                    </StackPanel>
+
+                    <Image
+                           Source="/MVVM/View/logo_Telescope.png"
+                           Margin="138,376,138,72"/>
+
+                </Grid>
+
+
+            </Border>
+
+            <Border Width="375"
+                    Height="615"
+                    Margin="95,75,128,0"
+                    Background="#59000000">
+
+                <Border.Clip>
+                    <RectangleGeometry RadiusX="25"
+                                       RadiusY="25"
+                                       Rect="0,0,375,615"/>
+                </Border.Clip>
+
+
+
+                <Grid>
+                    <StackPanel>
+                        <TextBlock
+                                   Foreground="White" 
+                                   Width="329" Height="146"
+                                   FontWeight="Bold" 
+                                   TextAlignment="Center"
+                                   FontSize="36"
+                                   Margin="0,34,0,0" FontFamily="Cera Round Pro"
+                                   ><Run Text="Тем, кто "/><LineBreak/><Run 
+                                   Text="совершенствуется "/></TextBlock>
+                        <TextBlock
+                             Foreground="White" 
+                            Width="329" Height="200"
+                            Margin="0,10,0,0"
+                            FontWeight="Normal"
+                            TextAlignment="Center" 
+                            FontSize="22"
+                            FontFamily="Cera Round Pro Medium" 
+                            ><Run Text="Изучите космические "/><LineBreak/><Run 
+                            Text="явления от Солнечного "/><LineBreak/><Run 
+                            Text="затмения до целого "/><LineBreak/><Run
+                            Text="парада планет!"/></TextBlock>
+                        <TextBlock
+                            Foreground="#BCFFFFFF" 
+                            Margin="0,350,0,0"
+                            Width="170" Height="20"
+                            FontWeight="Normal" TextAlignment="Center"
+                            FontSize="16"
+                            FontStyle="Normal" 
+                            ><Run Language="ru-ru"
+                            Text="Подробнее"/></TextBlock>
+                        <TextBlock
+                            Foreground="#BCFFFFFF" 
+                            Margin="0,0,0,0"
+                            Width="170" Height="20"
+                            FontWeight="Normal" 
+                            TextAlignment="Center" 
+                            FontSize="16"
+                            FontStyle="Normal" 
+                            ><Run Language="ru-ru" 
+                            Text="Подробнее"/></TextBlock>
+                        <TextBlock
+                            Foreground="#BCFFFFFF" 
+                            Margin="0,-430,0,0"
+                            Width="170" Height="20"
+                            FontWeight="Normal" 
+                            TextAlignment="Center" 
+                            FontSize="16" 
+                            FontStyle="Normal"
+                            FontFamily="Cera Round Pro" 
+                            ><Run Language="ru-ru" 
+                            Text="Подробнее"/></TextBlock>
+                    </StackPanel>
+
+                    <Image
+                           Source="/MVVM/View/logo_HandPlanet.png"
+                           Margin="138,376,138,72"/>
+
+                </Grid>
+
+
+            </Border>
+
+
+        </StackPanel>
+    </StackPanel>
+</UserControl>

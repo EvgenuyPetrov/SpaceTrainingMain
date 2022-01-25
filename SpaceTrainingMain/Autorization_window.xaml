@@ -1,0 +1,71 @@
+﻿<Window x:Class="SpaceTrainingMain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceTrainingMain"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Window.Background>
+        <ImageBrush ImageSource="/bg_RegistrationAuthorization.png"/>
+    </Window.Background>
+    <Grid>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="1340,725,0,0" VerticalAlignment="Top" Height="72" Width="205" Background="#26FFFFFF" Click="Button_Click" FontSize="24" FontWeight="Bold" Foreground="White">
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#BFFFFFFF"/>
+                    <GradientStop Color="Transparent" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <StackPanel Margin="1125,525,155,280">
+            <StackPanel Orientation="Horizontal">
+                <TextBox FontFamily="Cera Round Pro Black"
+                 FontWeight="Bold"
+                 Text="Логин"
+                 FontSize="20"
+                 Foreground="White"
+                 Background="Transparent"
+                 BorderThickness="0"
+                 Width="205"    
+                 HorizontalContentAlignment="Left"
+                 Opacity="0.5" 
+                         Height="30"
+                         Margin="195,0,0,0" BorderBrush="White"/>
+                <Image Height="50" Source="/icon_User_Autorization.png" Stretch="Fill" Width="50"/>
+            </StackPanel>
+            <Border Width="250"
+                Height="2"
+                Background="White"
+                Opacity="0.5"/>
+            <StackPanel Orientation="Horizontal" Margin="0,45,0,0">
+                <PasswordBox FontFamily="Cera Round Pro Black"
+                 FontWeight="Bold"
+                 Password="Пароль"
+                 FontSize="20"
+                 Foreground="White"
+                 Background="Transparent"
+                 BorderThickness="0"
+                 Width="205"
+                 HorizontalContentAlignment="Left"
+                 Opacity="0.5" 
+                         Height="22"
+                         Margin="195,0,0,0" BorderBrush="White"/>
+                <Image Height="50" Source="/icon_Password_Autarization.png" Stretch="Fill" Width="50"/>
+            </StackPanel>
+            <Border Width="250"
+                Height="2"
+                Background="White"
+                Opacity="0.5"/>
+        </StackPanel>
+        <Image HorizontalAlignment="Left" 
+               Height="174" 
+               Margin="1356,317,0,0" 
+               VerticalAlignment="Top"
+               Width="174" 
+               Source="/logo_Planet_Autorization.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1222,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="48" FontFamily="Cera Round Pro Black" Height="98" Width="446" TextAlignment="Center"><Run Text="Авторизация"/><Run Language="ru-ru" Text=":"/></TextBlock>
+
+
+    </Grid>
+</Window>
